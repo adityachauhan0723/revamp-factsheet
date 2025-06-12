@@ -1,0 +1,134 @@
+// .investment {
+//   display: flex;
+//   width: 95%;
+//   .mainHeading {
+//     width: 100%;
+//     background-color: #8ea3c5;
+//     padding: 0.2em;
+//     font-weight: 800;
+//     font-size: 1em;
+//     // margin-top: 1%;
+//   }
+//   .investmentObj {
+//     flex: 0 0 40%;
+//     padding: 1%;
+//     p {
+//       text-align: justify;
+//       word-spacing: 4px;
+//       // text-align: justify;
+//       // word-spacing: -2px;
+//       // text-align: left;
+//       // text-align-last: justify;
+//       // text-justify: distribute;
+//       // text-align-last: left;
+//       font-weight: 400;
+//       font-size: 18px;
+//       margin-bottom: 0;
+//       // text-justify: inter-word;
+//       // word-break: break-all;
+//     }
+//     .para {
+//       display: flex;
+//       justify-content: space-evenly;
+//       font-size:large;
+//       text-align: justify;
+//     }
+//   }
+//   .performance {
+//     flex: 0 0 60%;
+//     padding: 1%;
+//   }
+// }
+
+// .investmentObjHeading,
+// .performanceHeading {
+//   display: flex;
+//   align-items: flex-end;
+//   justify-content: space-around;
+//   height: 40px;
+// }
+// .investmentObjHeading {
+//   justify-content: flex-start;
+// }
+// .topHeading {
+//   display: flex;
+//   flex-direction: column;
+//   h5 {
+//     margin-bottom: 0;
+//     font-size: 1.2em;
+//     font-weight: 800;
+//   }
+//   span {
+//     font-size: 1.1em;
+//   }
+// }
+.investment {
+  display: flex;
+  // width: 90%;
+  .mainHeading {
+    width: 100%;
+    background-color: #B8D3D1;
+    padding: 0.2em;
+    font-weight: 800;
+    font-size: 1.2em;
+    // margin-top: 1%;
+  }
+  .investmentObj {
+    flex: 0 0 40%;
+    padding: 1%;
+    p {
+      text-align: justify;
+      word-spacing: 4px;
+      // text-align: justify;
+      // word-spacing: -2px;
+      // text-align: left;
+      // text-align-last: justify;
+      // text-justify: distribute;
+      // text-align-last: left;
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 0;
+      // text-justify: inter-word;
+      // word-break: break-all;
+    }
+    .para {
+      display: flex;
+      justify-content: space-evenly;
+      font-size:x-large;
+      text-align: justify;
+    }
+  }
+  .performance {
+    flex: 0 0 60%;
+    padding: 1%;
+  }
+}
+
+.investmentObjHeading,
+.performanceHeading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 40px;
+}
+.investmentObjHeading {
+  justify-content: flex-start;
+}
+.topHeading {
+  display: flex;
+  flex-direction: column;
+  h5 {
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-weight: 800;
+  }
+  span {
+    font-size: 1.1em;
+  }
+}
+.chartContainer {
+  padding-top: 0.2em;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  display: block;
+}

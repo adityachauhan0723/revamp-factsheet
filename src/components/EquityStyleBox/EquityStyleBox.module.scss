@@ -1,0 +1,105 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+//   background: #ffffff;
+  padding: 1.5rem;
+//   border: 1px solid #e2e8f0;
+  border-radius: 12px;
+//   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.styleBox, .capBox {
+  flex: 1 1 300px;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.colLabels {
+  display: flex;
+  margin-left: 60px;
+  gap: 0.5rem;
+}
+
+.axisLabel {
+  flex: 1;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #475569;
+}
+
+.emptyCell {
+  width: 60px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.rowLabel {
+  width: 60px;
+  font-size: 1em;
+  font-weight: 500;
+  color: #475569;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+.cell {
+  flex: 1;
+  padding: 0.6em;
+  margin: 0 4px;
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #1e293b;
+}
+
+.active {
+  background-color: #B8D3D1;
+  color: #000000;
+  font-weight: 400;
+  border-color: #B8D3D1;
+}
+
+
+.capTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+.capTable td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.capTable tr:last-child td {
+  border-bottom: none;
+}

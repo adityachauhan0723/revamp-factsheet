@@ -1,0 +1,178 @@
+// .header {
+//   max-width: 100%; /* Full width within parent */
+//   margin: 0;
+//   padding: 0.4rem 0;
+//   font-size: 0.9rem; /* Base for PDF and screen */
+
+//   p {
+//     margin-bottom: 0;
+//     font-size: 1em; /* Scaled from 1.2em */
+//   }
+
+//   .headerMain {
+//     display: flex;
+//     align-items: center;
+//     height: 50px; /* Reduced from 70px */
+//     justify-content: space-between;
+//     border-top: 1px solid rgb(112, 112, 112);
+//     border-bottom: 1px dashed #000;
+//     padding: 0.3rem 0;
+//     box-sizing: border-box;
+
+//     .headerLeft {
+//       height: 100%;
+//       display: flex;
+//       align-items: center;
+//       flex: 0 0 60%;
+
+//       span {
+//         font-size: 1.8em; /* Scaled from 2.5em */
+//         font-weight: 600;
+//       }
+//     }
+
+//     img {
+//       height: 100%;
+//       width: 12%; /* Scaled from 15% */
+//       object-fit: contain;
+//     }
+
+//     .headerRight,
+//     .headerRight2 {
+//       height: 100%;
+//       display: flex;
+//       align-items: center;
+//       justify-content: flex-end;
+//       flex: 0 0 40%;
+//     }
+//   }
+// }
+
+// /* Responsive adjustments */
+// @media (max-width: 600px) {
+//   .header {
+//     font-size: 0.8rem;
+//     padding: 0.3rem 0;
+
+//     .headerMain {
+//       height: 40px;
+//       padding: 0.2rem 0;
+
+//       .headerLeft {
+//         flex: 0 0 65%;
+
+//         span {
+//           font-size: 1.4em;
+//         }
+//       }
+
+//       img {
+//         width: 15%;
+//       }
+
+//       .headerRight,
+//       .headerRight2 {
+//         flex: 0 0 35%;
+//       }
+//     }
+
+//     p {
+//       font-size: 0.9em;
+//     }
+//   }
+// }
+
+// @media (min-width: 601px) and (max-width: 900px) {
+//   .header {
+//     font-size: 0.85rem;
+
+//     .headerMain {
+//       height: 45px;
+
+//       .headerLeft {
+//         span {
+//           font-size: 1.6em;
+//         }
+//       }
+
+//       img {
+//         width: 13%;
+//       }
+//     }
+//   }
+// }
+
+// /* Print styles for A4 */
+// @media print {
+//   .header {
+//     max-width: 523px; /* A4 content width */
+//     margin: 0;
+//     padding: 0.3rem 0;
+//     font-size: 0.8rem;
+
+//     .headerMain {
+//       height: 40px;
+//       padding: 0.2rem 0;
+
+//       .headerLeft {
+//         span {
+//           font-size: 1.5em;
+//         }
+//       }
+
+//       img {
+//         width: 12%;
+//       }
+//     }
+
+//     p {
+//       font-size: 0.9em;
+//     }
+//   }
+// }
+
+.header {
+  p {
+    margin-bottom: 0;
+    // margin-left: 1%;
+    font-size: 1.2em;
+  }
+  // hr {
+  //   // width: 98%;
+  //   // margin-left: 1%;
+  //   margin-top: 0;
+  // }
+  .headerMain {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    border-top: 1px solid rgb(112, 112, 112);
+    border-bottom: 1px dashed #000;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    .headerLeft {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex: 0 0 60%;
+
+      span {
+        font-size: 2.5em;
+        font-weight: 600;
+      }
+    }
+    img {
+      height: 100%;
+      width: 15%;
+    }
+  }
+  .headerRight, .headerRight2 {
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+    flex: 0 0 40%;
+  }
+  
+}

@@ -1,0 +1,19 @@
+.pdf-container {
+  width: 794px; /* A4 width at 96 DPI */
+  min-height: 1123px; /* A4 height at 96 DPI */
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.responsive-section {
+  width: 100%;
+  max-width: 100%;
+  padding: 16px 0;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}

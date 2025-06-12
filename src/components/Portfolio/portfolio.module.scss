@@ -1,0 +1,207 @@
+// // .portfolio {
+// //   display: flex;
+// //   flex-direction: column;
+// // }
+// // .portfolioHeading {
+// //   flex: 0 0 100%;
+// //   background-color: #8ea3c5;
+// //   padding: 0.2em;
+// //   font-weight: 800;
+// //   font-size: 1em;
+// // }
+// // .portfolioContent {
+// //   display: flex;
+// //   justify-content: space-between;
+// // }
+// // .portfolioLeft {
+// //   flex: 0 0 50%;
+// //   padding: 1%;
+// //   .leftContent {
+// //     display: flex;
+// //     width: 100%;
+// //     align-items: center;
+// //     padding-top: 2em;
+// //   }
+// //   .pieChart {
+// //     flex: 0 0 100%;
+// //   }
+// //   .portfolioTable {
+// //     // margin-left: 30px;
+// //     flex: 0 0 50%;
+// //   }
+// // }
+// // .portfolioRight {
+// //   flex: 0 0 50%;
+// //   padding: 1%;
+// //   height: 200px;
+// //   display: flex;
+// //   align-items: flex-start;
+// // }
+// // .portfolioGrid {
+// //   display: flex;
+// //   //   width: 90%;
+// //   height: 100%;
+// //   flex-wrap: wrap;
+// //   //   align-items: center;
+// //   align-content: flex-start;
+// //   margin: 0;
+// //   overflow: hidden;
+// //   position: relative;
+
+// //   div {
+// //     padding: 1em 0.8em;
+// //     flex: 0 0 25%;
+// //     border: 0.5px solid rgb(160, 160, 160);
+// //     overflow: hidden;
+// //   }
+// //   p {
+// //     flex: 0 0 25%;
+// //     text-align: center;
+// //     span {
+// //       display: block;
+// //     }
+// //   }
+// // }
+// // .portfolioGrid > span {
+// //   transform: rotate(90deg);
+// //   -webkit-transform: rotate(90deg); /* to support Safari and Android browser */
+// //   -ms-transform: rotate(90deg);
+// //   font-size: 10px;
+// //   height: 30px;
+// //   width: 30px;
+// //   // width: 15px;
+// //   // writing-mode: vertical-lr;
+
+// //   // flex-grow: 1;
+// //   // height: 100%;
+// //   text-align: center;
+// //   transform-origin: 40% 40%;
+// //   // display: flex;
+// //   // padding: 2em;
+// //   // align-items: flex-end;
+// //   // justify-content: center;
+// // }
+// // .portfolioRight tr td:last-child {
+// //   text-align: right !important;
+// // }
+// .portfolioLeft {
+//   width: 100%;
+//   padding: 20px;
+//   box-sizing: border-box;
+//   display: flex;
+//   flex-direction: column;
+
+//   @media (max-width: 768px) {
+//     padding: 10px;
+//   }
+// }
+
+// .leftContent {
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .pieChart {
+//   width: 100%;
+//   max-width: 100%;
+//   height: 300px;
+
+//   @media (min-width: 768px) {
+//     height: 350px;
+//   }
+
+//   canvas {
+//     width: 100% !important;
+//     height: 100% !important;
+//   }
+// }
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
+.portfolioHeading {
+  flex: 0 0 100%;
+  background-color: #B8D3D1;
+  padding: 0.2em;
+  font-weight: 800;
+  font-size: 1.2em;
+  width: 100%;
+}
+.portfolioContent {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolioLeft {
+  flex: 0 0 50%;
+  padding: 1%;
+  .leftContent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    // padding-top: 2em;
+  }
+  .pieChart {
+    flex: 0 0 100%;
+  }
+  .portfolioTable {
+    // margin-left: 30px;
+    flex: 0 0 50%;
+  }
+}
+.portfolioRight {
+  flex: 4 0 35%;
+  padding: 6%;
+  height: 200px;
+  // display: flex;
+  // align-items: center;
+}
+.portfolioGrid {
+  display: flex;
+  //   width: 90%;
+  height: 100%;
+  flex-wrap: wrap;
+  //   align-items: center;
+  align-content: flex-start;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+
+  div {
+    padding: 1em 0em;
+    flex: 0 0 25%;
+    border: 0.5px solid rgb(160, 160, 160);
+    overflow: hidden;
+  }
+  p {
+    flex: 0 0 25%;
+    text-align: center;
+    span {
+      display: block;
+    }
+  }
+}
+.portfolioGrid > span {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg); /* to support Safari and Android browser */
+  -ms-transform: rotate(90deg);
+  font-size: 10px;
+  height: 30px;
+  width: 30px;
+  // width: 15px;
+  // writing-mode: vertical-lr;
+
+  // flex-grow: 1;
+  // height: 100%;
+  text-align: center;
+  transform-origin: 40% 40%;
+  // display: flex;
+  // padding: 2em;
+  // align-items: flex-end;
+  // justify-content: center;
+}
+.portfolioRight tr td:last-child {
+  text-align: center !important;
+  margin-top: 10px;
+}
